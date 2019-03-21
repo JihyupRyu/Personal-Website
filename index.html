@@ -9,20 +9,27 @@
     <title>Collapsible sidebar using Bootstrap 4</title>
 
     <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./assets/CSS/main.css">
     <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 
 
 
     <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
 
 </head>
 
@@ -31,8 +38,9 @@
     <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
+
             <div id="dismiss">
-                <i class="far fa-times-circle"></i>            
+                <i class="far fa-times-circle"></i>
             </div>
 
             <div class="sidebar-header">
@@ -44,13 +52,13 @@
                     <a href="./index.html">Home</a>
                 </li>
                 <li class="active">
-                    <a href="./html/about.html">About</a>
+                    <a href="./assets/html/about.html">About</a>
                 </li>
                 <li>
-                    <a href="./html/works.html">Wokrs</a>
+                    <a href="./assets/html/works.html">Wokrs</a>
                 </li>
                 <li>
-                    <a href="./html/contact.html">Contact</a>
+                    <a href="./assets/html/contact.html">Contact</a>
                 </li>
                 <li>
                     <a href="#LanguagesSubmenu" data-toggle="collapse" aria-expanded="false">Languages</a>
@@ -67,20 +75,23 @@
                         <li>
                             <a href="#">中文</a>
                         </li>
+                    </ul>
             </ul>
-        </ul>
-            
-            
+
+
             <ul class="list-unstyled CTAs" id="links">
                 <li class="link">
-                    <a href="https://www.facebook.com/jihyup.ryu" target="_blank" ><button type="button" class="btn btn-li btn-sm"><i class="fab fa-facebook-f"></i></button></a>
-                </li>
-                <li class="link"> 
-                    <a href="https://www.linkedin.com/in/jihyup-ryu-248948182/" target="_blank"><button type="button" class="btn btn-git btn-sm"><i class="fab fa-linkedin-in"></i></button></a>
+                    <a href="https://www.facebook.com/jihyup.ryu" target="_blank"><button type="button"
+                            class="btn btn-li btn-sm"><i class="fab fa-facebook-f"></i></button></a>
                 </li>
                 <li class="link">
-                    <a href="https://github.com/hopeinvader/demo" target="_blank"><button type="button" class="btn btn-fb btn-sm"><i class="fab fa-github"></i></button></a>
-                                  
+                    <a href="https://www.linkedin.com/in/jihyup-ryu-248948182/" target="_blank"><button type="button"
+                            class="btn btn-git btn-sm"><i class="fab fa-linkedin-in"></i></button></a>
+                </li>
+                <li class="link">
+                    <a href="https://github.com/hopeinvader/demo" target="_blank"><button type="button"
+                            class="btn btn-fb btn-sm"><i class="fab fa-github"></i></button></a>
+
                 </li>
             </ul>
             <p class="text-muted small mb-0" id="padding0">Copyright &copy; Your Website 2019</p>
@@ -89,140 +100,160 @@
 
     <div id="content">
 
-            <nav class="navbar navbar-expand-lg">
-                
-                <a class="navbar-brand" href="#" id="logo">
-                    <img src="./images/logo.jpg" width="40" height="40" alt="logo">
-                </a>
-                
-               
-                    
-                <button type="button" id="sidebarCollapse" class="btn ml-auto" id="button">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </nav>
+        <nav class="navbar navbar-expand-lg">
+
+            <a class="navbar-brand" href="./index.html" id="logo">
+                <img src="./assets/images/logo.jpg" width="44.66" height="40" alt="logo">
+            </a>
+
+
+            <button type="button" id="sidebarCollapse" class="btn ml-auto">
+                <i class="fas fa-bars fa-lg"></i>
+            </button>
+        </nav>
     </div>
 
     <div class="notebook-hero">
         <div class="row no-gutters">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h1><strong>Jihyup Ryu</strong></h1>
-                    <p id="para1">Hello! Welcome to my Portfolio website! I'm HK based Full Stack Web Developer. <br>If you have any comments, please feel free to contact me on Facebook, Linkedin or visit <a href="./html/contact.html"><u>contact</u></a> to check other method!</p>
+                <h1><strong>Jihyup Ryu</strong></h1>
+                <p id="para1">Hello! Welcome to my Portfolio website! I'm HK based Full Stack Web Developer. <br>If you
+                    have any comments, please feel free to contact me on Facebook, Linkedin or visit <a
+                        href="./assets/html/contact.html"><u>contact</u></a> to check other method!</p>
+
+                <br><br>
+                <a href="./assets/html/about.html"><button type="button" class="btn btn-dark" id="me">Learn about me
+                        more</button></a>
             </div>
         </div>
-        
+
     </div>
     <a class="scroll-to-top rounded js-scroll-trigger" href="#second">
         <i class="fas fa-angle-down"></i>
     </a>
 
     <section id="second">
-            <h2>What I can do</h2>
-            <div class="container">
-                <div class="row no-gutters">
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-6">
-                        <a href="https://en.wikipedia.org/wiki/HTML5"><img src="./images/html5.png" width="50" height="50"></a>
-                        <p>HTML5</p>
-                        <!-- <h4>HTML5</h4> -->
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-6">
-                        <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"><img src="./images/CSS3.png" width="50" height="50"></a>
-                        <p>CSS3</p>                    
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-6">
-                        <a href="https://en.wikipedia.org/wiki/JavaScript"><img src="./images/javascript.jpeg" width="50" height="50"></a>
-                        <p>JavaScript</p>                    
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-6">
-                        <a href="https://en.wikipedia.org/wiki/Ajax_(programming)"><img src="./images/ajax.png" width="50" height="50"></a>
-                        <p>AJAX</p>                    
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-6">
-                        <a href="https://en.wikipedia.org/wiki/JQuery"><img src="./images/jquery.jpg" width="50" height="50"></a>
-                            <p>jQuery</p>                    
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-6">
-                            <a href="https://en.wikipedia.org/wiki/Node.js"><img src="./images/nodejs.png" width="50" height="50"></a>
-                            <p>Node.js</p>                    
-                    </div>
-                    
-                </div>
-            </div>
-            <br><br>
-            <a class="scroll-to-top rounded js-scroll-trigger" href="#third">
-                <i class="fas fa-angle-down"></i>
-            </a>
-        </section>
-
-        <section id="third">
+        <h2>What I can do</h2>
+        <div class="container">
             <div class="row no-gutters">
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                    <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img src="./assets/images/html5.png"
+                            width="50" height="50"></a>
+                    <p>HTML5</p>
+                    <!-- <h4>HTML5</h4> -->
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                    <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img
+                            src="./assets/images/CSS3.png" width="50" height="50"></a>
+                    <p>CSS3</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"><img
+                            src="./assets/images/javascript.jpeg" width="50" height="50"></a>
+                    <p>JavaScript</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                    <a href="https://en.wikipedia.org/wiki/Ajax_(programming)" target="_blank"><img
+                            src="./assets/images/ajax.png" width="50" height="50"></a>
+                    <p>AJAX</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                    <a href="https://en.wikipedia.org/wiki/JQuery" target="_blank"><img src="./assets/images/jquery.jpg"
+                            width="50" height="50"></a>
+                    <p>jQuery</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                    <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank"><img src="./assets/images/nodejs.png"
+                            width="50" height="50"></a>
+                    <p>Node.js</p>
+                </div>
+
+            </div>
+        </div>
+        <br><br>
+        <a class="scroll-to-top rounded js-scroll-trigger" href="#third">
+            <i class="fas fa-angle-down"></i>
+        </a>
+    </section>
+
+    <section id="third">
+        <div class="row no-gutters">
             <div class="col-lg-12 col-md-12 col-sm-12" id="project">
                 <h1><strong>Projects</strong></h1>
             </div>
-
+ 
             <div class="col-lg-6 col-md-12 col-sm-12" id="project1" style="
-            justify-content: center;">
-                <img src="./images/example1.png" width="500px" height="500px">
+                justify-content: center;">
+                <a href="./assets/html/works.html"><img src="./assets/images/example1.png" width="100%" height="100%"></a>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12" id="project2" style="
-            justify-content: center;">
-                <img src="./images/example2.png" width="500px" height="500px">
+                justify-content: center;">
+                <a href="./assets/html/works.html"><img src="./assets/images/example2.png" width="100%" height="100%"></a>
             </div>
         </div>
-        </section>
+    </section>
 
-    <!-- <section class="notebook-hero">
-        <h1>Jihyup Ryu</h1>
-        <p>Hello! I'm HK based Full Stack Web Developer.</a>
-    </section> -->
+
     <footer class="footer text-center">
-            <div class="container">
-              <ul class="list-inline mb-5">
+        <div class="container">
+            <ul class="list-inline mb-5">
                 <li class="list-inline-item">
-                  <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/jihyup.ryu" target="_blank" id="facebook">
-                        <i class="fab fa-facebook"></i>                  
+                    <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/jihyup.ryu"
+                        target="_blank" id="facebook">
+                        <i class="fab fa-facebook"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/jihyup-ryu-248948182/" target="_blank">
-                        <i class="fab fa-linkedin"></i>                  
+                    <a class="social-link rounded-circle text-white mr-3"
+                        href="https://www.linkedin.com/in/jihyup-ryu-248948182/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white" href="https://github.com/hopeinvader/demo" target="_blank">
-                        <i class="fab fa-github"></i>
+                    <a class="social-link rounded-circle text-white mr-3" href="https://github.com/hopeinvader/demo"
+                        target="_blank">
+                        <i class="fab fa-github-square"></i>
                     </a>
                 </li>
-              </ul>
-              <p class="text-muted small mb-0">Copyright &copy; Your Website 2019</p>
-            </div>
-          </footer>
-        
-          <!-- Scroll to Top Button-->
-          <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-            <i class="fas fa-angle-up"></i>
-          </a>
+            </ul>
+            <p class="text-muted small mb-0">Copyright &copy; Your Website 2019</p>
+        </div>
+    </footer>
 
-    
-    
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+
+
     <div class="overlay"></div>
 
-    
-    
+
+
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
     <!-- jQuery Custom Scroller CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="smooth-scroll.min.js"></script>
-
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="./smooth-scroll.min.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {
+
+            // Smooth scroll initalisation code, from slack goes here. 
+
             $("#sidebar").mCustomScrollbar({
                 theme: "minimal"
             });
@@ -240,6 +271,7 @@
             });
         });
     </script>
+
 </body>
 
 </html>

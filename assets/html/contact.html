@@ -11,7 +11,7 @@
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../CSS/main.css">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -41,7 +41,7 @@
 
             <ul class="list-unstyled components" id="test">
                 <li>
-                    <a href="../index.html">Home</a>
+                    <a href="../../index.html">Home</a>
                 </li>
                 <li class="active">
                     <a href="../html/about.html">About</a>
@@ -50,7 +50,7 @@
                     <a href="../html/works.html">Wokrs</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="../html/contact.html">Contact</a>
                 </li>
                 <li>
                     <a href="#LanguagesSubmenu" data-toggle="collapse" aria-expanded="false">Languages</a>
@@ -91,42 +91,71 @@
 
             <nav class="navbar navbar-expand-lg">
                 
-                <a class="navbar-brand" href="../index.html" id="logo">
-                    <img src="../images/logo.jpg" width="40" height="40" alt="logo">
+                <a href="../../index.html" class="navbar-brand" href="#" id="logo" >
+                    <img src="../images/logo.jpg" width="44.66" height="40" alt="logo">
                 </a>
                 
                
                     
                 <button type="button" id="sidebarCollapse" class="btn ml-auto" id="button">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars fa-lg"></i>
                 </button>
             </nav>
     </div>
 
-    <div class="notebook-hero">
+    <div class="notebook-hero" id="extra">
         <div class="row no-gutters">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h1>Projects</h1>
-                    <p id="para1">2 weeks in the bootcamp, I've done these projects.
-                </p>
+                <h1><strong>My Contact Information</strong></h1>
             </div>
+        </div>
+        <div class="container-fluid contacts">
+            <div class="row align-items-center" style="display: inline-flex;">
+                <div style="padding-right:80px">
+                    <i class="fas fa-phone fa-3x"></i>                    
+                    <p style="padding-top:5px">9170-2675</p>
+                </div>
+                    <div style="padding-left:120px">
+                        <a href="mailto:ryujihyup@gmail.com"><i class="far fa-envelope fa-3x"></i></a>
+                        <p><a href="mailto:ryujihyup@gmail.com">ryujihyup@gmail.com</a></p>
+                    </div>
+            </div>
+        </div>
+<br><br><br>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <p>Social Media is avaiable as well</p>
+    </div>
+                <!--Remove unwanted and unused code-->
+
+    <!-- <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+                <i class="fab fa-whatsapp fa-3x icon"></i>              
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+                <i class="fab fa-line fa-3x icon"></i>              
+            </a>
+          </li>
+          <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white" href="#">
+                <i class="fab fa-weixin fa-3x icon"></i>              </a>
+          </li>
+        </ul>
+      </div> -->
+    <div class="social-media-icons col-xs-12">
+        <ul class="list-inline col-xs-12">
+            <a href="https://plus.google.com/u/1/118067624671687574520" target="blank"><i class="fab fa-google-plus-square fa-5x"></i></a>
+            <a href="https://twitter.com/JihyupRyu" target="blank"><i class="fab fa-twitter-square fa-5x"></i></a>
+            <a href="#"><i class="fab fa-whatsapp fa-5x"></i></a>
+            <a href="#"><i class="fab fa-line fa-5x"></i></a>
+            <a href="#"><i class="fab fa-weixin fa-5x"></i></a>                              
+        </ul>
     </div>
     
-    <section id="third">
-        <div class="row no-gutters">
-        <div class="col-lg-12 col-md-12 col-sm-12" id="project">
-        </div>
-
-        <div class="col-lg-6 col-md-12 col-sm-12" id="project1" style="
-        justify-content: center;">
-            <a href="../example1/flowershop.html"><img src="../images/example1.png" width="500px" height="500px"></a>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12" id="project2" style="
-        justify-content: center;">
-            <a href="../example2/index.html"><img src="../images/example2.png" width="500px" height="500px"></a>
-        </div>
-    </div>
-    </section>
+    
 
     <footer class="footer text-center">
             <div class="container">
@@ -142,7 +171,7 @@
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white" href="#">
+                    <a class="social-link rounded-circle text-white mr-3" href="#">
                         <i class="fab fa-github"></i>
                     </a>
                 </li>
